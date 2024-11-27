@@ -1,57 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE menu SYSTEM "menu.dtd">
 <menu>
-    <meals>
-        <meal>
-            <name>Beetroot and feta salad</name>
-            <price>15.00</price>
-            <description>Suitable for vegetarians, made with fresh beetroot</description>
-            <image>beetroot_salad.jpg</image>
-        </meal>
-        <meal>
-            <name>Sourdough Rye Sandwich</name>
-            <price>18.00</price>
-            <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
-            <image>sourdough_sandwich.jpg</image>
-        </meal>
-        <meal>
-            <name>Spinach Pie and Salad</name>
-            <price>20.00</price>
-            <description>Tasty pie with salad</description>
-            <image>spinach_pie.jpg</image>
-        </meal>
-        <meal>
-            <name>Feta pancakes with salad</name>
-            <price>19.50</price>
-            <description>Tasty pancake filled with feta and salad</description>
-            <image>feta_pancakes.jpg</image>
-        </meal>
-    </meals>
-    <beverages>
-        <coffeeAndHotChocolate>
-            <size>Small</size>
-            <price>3.50</price>
-            <description>For coffee, please inform the staff of the coffee type.</description>
-        </coffeeAndHotChocolate>
-        <coffeeAndHotChocolate>
-            <size>Regular</size>
-            <price>4.00</price>
-        </coffeeAndHotChocolate>
-        <coffeeAndHotChocolate>
-            <size>Large</size>
-            <price>4.50</price>
-        </coffeeAndHotChocolate>
-        <otherBeverages>
-            <name>Soda</name>
-            <price>3.00</price>
-        </otherBeverages>
-        <otherBeverages>
-            <name>Fresh juice</name>
-            <price>6.00</price>
-        </otherBeverages>
-        <otherBeverages>
-            <name>Bottled water</name>
-            <price>2.00</price>
-        </otherBeverages>
-    </beverages>
+    <!-- Meals -->
+    <meal>
+        <name>Beetroot and Feta Salad</name>
+        <description>Suitable for vegetarians, made with fresh beetroot, feta cheese, and arugula.</description>
+        <price>$15.00</price>
+    </meal>
+    <meal>
+        <name>Grilled Chicken Sandwich</name>
+        <description>Served with fresh lettuce, tomato, and our special mayo.</description>
+        <price>$12.00</price>
+    </meal>
+    <meal>
+        <name>Spaghetti Carbonara</name>
+        <description>Classic Italian pasta with creamy sauce, bacon, and parmesan.</description>
+        <price>$18.00</price>
+    </meal>
+    <meal>
+        <name>Avocado Toast</name>
+        <description>Whole-grain toast topped with smashed avocado, poached egg, and chili flakes.</description>
+        <price>$10.00</price>
+    </meal>
+    <meal>
+        <name>Classic Burger</name>
+        <description>Beef patty, cheddar cheese, lettuce, tomato, and onion in a brioche bun.</description>
+        <price>$14.50</price>
+    </meal>
+    <meal>
+        <name>Vegan Buddha Bowl</name>
+        <description>A wholesome bowl with quinoa, roasted vegetables, and tahini dressing.</description>
+        <price>$16.00</price>
+    </meal>
+
+    <!-- Beverages -->
+    <beverage>
+        <name>Freshly Brewed Coffee</name>
+        <price>$4.00</price>
+    </beverage>
+    <beverage>
+        <name>Green Tea</name>
+        <price>$3.50</price>
+    </beverage>
+    <beverage>
+        <name>Fresh Juice</name>
+        <description>Choose from orange, apple, or carrot juice.</description>
+        <price>$6.00</price>
+    </beverage>
+    <beverage>
+        <name>Milkshake</name>
+        <description>Available in chocolate, vanilla, or strawberry.</description>
+        <price>$7.00</price>
+    </beverage>
+    <beverage>
+        <name>Sparkling Water</name>
+        <price>$2.50</price>
+    </beverage>
 </menu>

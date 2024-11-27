@@ -4,28 +4,21 @@
     <branch>
         <address>76 Devonshire St, Surry Hills NSW</address>
         <contact>02 9211 1234</contact>
-        <openingHours>
-            <weekday>Mon - Fri: 6:00 to 14:30</weekday>
-            <weekend>Sat-Sun: 7:00 to 15:00</weekend>
-        </openingHours>
-        <googleMaps>https://goo.gl/maps/example1</googleMaps>
+        <hours>Mon - Fri: 6:00 AM to 2:30 PM</hours>
     </branch>
     <branch>
-        <address>451 Pitt St, Haymarket Sydney, NSW</address>
-        <contact>02 9262 5678</contact>
-        <openingHours>
-            <weekday>Mon - Fri: 6:00 to 16:00</weekday>
-            <weekend>Sat-Sun: 7:00 to 15:00</weekend>
-        </openingHours>
-        <googleMaps>https://goo.gl/maps/example2</googleMaps>
+        <address>150 King St, Newtown NSW</address>
+        <contact>02 9557 5678</contact>
+        <hours>Mon - Sun: 7:00 AM to 3:00 PM</hours>
     </branch>
     <branch>
-        <address>31 Alfred Street, Circular Quay, NSW</address>
-        <contact>02 8971 9101</contact>
-        <openingHours>
-            <weekday>Mon - Fri: 6:00 to 16:00</weekday>
-            <weekend>Sat-Sun: 7:00 to 15:00</weekend>
-        </openingHours>
-        <googleMaps>https://goo.gl/maps/example3</googleMaps>
+        <address>220 Crown St, Darlinghurst NSW</address>
+        <contact>02 9360 4321</contact>
+        <hours>Tue - Sat: 8:00 AM to 4:00 PM</hours>
+    </branch>
+    <branch>
+        <address>50 George St, Parramatta NSW</address>
+        <contact>02 9687 8900</contact>
+        <hours>Mon - Fri: 7:30 AM to 3:30 PM</hours>
     </branch>
 </branches>
