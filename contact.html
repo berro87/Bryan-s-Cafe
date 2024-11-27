@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Bryan's Café</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="Bryan's Café Logo"></a>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <form>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit" onclick="alert('Message sent!')">Submit</button>
+        </form>
+        <h2>Our Branches</h2>
+        <div id="contactContent">Loading branch information...</div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Bryan's Café</p>
+    </footer>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
