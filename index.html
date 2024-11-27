@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | Bryan's Café</title>
+    <title>About - Bryan's Café</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/logo.png" alt="Bryan's Café Logo"></a>
         <nav>
             <a href="index.html">About</a>
             <a href="menu.html">Menu</a>
@@ -16,26 +15,21 @@
         </nav>
     </header>
     <main>
-        <section class="banner">
-            <h1>Welcome to Bryan's Café</h1>
-            <p>Your neighborhood café with the finest meals and beverages.</p>
-        </section>
-        <section class="about">
+        <h1>Welcome to Bryan's Café</h1>
+        <section>
             <h2>About Us</h2>
-            <img src="images/cafe.jpg" alt="Cafe Image">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            <p>Discover our cozy café with a passion for delicious meals and refreshing beverages. Visit us at any of our branches and enjoy!</p>
         </section>
-        <section class="history">
+        <section>
             <h2>Our History</h2>
-            <img src="images/history.jpg" alt="History Image">
-            <p>In the heart of the city, Bryan's Café has served as a beloved spot for decades...</p>
+            <p>Established in the heart of Sydney, Bryan's Café has been serving happiness with every bite for over a decade.</p>
         </section>
     </main>
     <footer>
-        <p>&copy; <span id="currentYear"></span> Bryan's Café</p>
+        @<span id="currentYear"></span> Bryan’s Café
     </footer>
     <script>
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
     </script>
 </body>
 </html>

@@ -1,0 +1,3 @@
+<!ELEMENT menu (meals, beverages)>
+<!ELEMENT meals (meal+)>
+<!ELEMENT meal (name, price, description, image)>
